@@ -1,0 +1,12 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: white-list-spring-boot-start-demo
+
+# 自定义中间件配置
+xbp:
+  springbootstarter:
+    user-str: 1001,aaaa,ccc #白名单用户ID，多个逗号隔开
+    enabled: true
